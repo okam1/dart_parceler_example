@@ -27,7 +27,7 @@
 -keep class **Henson { *; }
 -keep class **$$IntentBuilder { *; }
 
-# Parcel library
+# Parceler library
 -keep interface org.parceler.Parcel
 -keep @org.parceler.Parcel class * { *; }
 -keep class **$$Parcelable { *; }
